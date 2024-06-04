@@ -33,7 +33,9 @@ a:hover {
         background-color: var(--french-violet);
         padding: 15px;
         color: white;
+        border-radius: 15px;
     }
+
 
     body {
         font-family: Arial, sans-serif;
@@ -64,4 +66,106 @@ a:hover {
         margin-bottom: 2em;
     }
 
+/*.......styling for index image....*/
+
+.kiteimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.kiteimg img {
+    max-width: 100%;
+    width: 650px; /* Adjust this width as needed */
+    border-radius: 8px;
+}
+
+
+    /* styling interest section.....................*/
+
+    .interests .interestimg {
+        display: flex;
+        justify-content: space-between;
+        gap: 1em;
+        margin-bottom: 2em;
+    }
     
+    .interests .interestimg .text-content {
+        flex: center;
+    }
+    
+    .interests .interestimg .image-content {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .interests .interestimg img {
+        max-width: 75%;
+        border-radius: 8px;
+    }
+/* project page picture styling................................................. */
+
+        .imageblocks {
+            display: flex;
+            flex-direction: row;
+            gap: 5px; /* Optional: to add some space between the images */
+            
+        }
+        .imageblocks div {
+            flex: 1; /* Makes all divs take equal space */
+            padding:2%
+        }
+        .imageblocks img {
+            width: 100%; /* Makes images take the full width of their container */
+            height: auto; /* Keeps the aspect ratio */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow border */
+            border-radius: 5px; /* Optional: adds rounded corners to the images */
+        }
+/* Project page form styling.......................................... */
+.forms {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  form {
+    background-color: #ffffff00;
+    padding: 20px
+    border-radius 8px;
+    max-width: 400px;
+    width: 100%;
+  }
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: white
+  }
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  form textarea {
+    resize: vertical;
+  }
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color:#731dd8;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #48a9a6;
+  }
